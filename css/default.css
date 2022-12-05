@@ -1,0 +1,11 @@
+html,
+body {
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-color: pink;
+}
+
+section {
+    display: block;
+    margin: 3rem auto;
+}
