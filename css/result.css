@@ -21,3 +21,20 @@
     text-align: center;
     font-size: 22px;
 }
+
+@media (max-width: 992px) {
+    #result {
+        overflow: hidden;
+    }
+    #resultBlock {
+        height: 90%;
+        border-radius: 40px;
+        overflow: auto;
+
+        justify-content: flex-start;
+        text-align: center;
+    }
+    #resultBlock::-webkit-scrollbar {
+        display: none;
+    }
+}

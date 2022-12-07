@@ -12,6 +12,7 @@ const animalList = [
     "dog",
     "pig",
 ];
+
 const qnaList = [
     {
         q: "1. 이성 사이에 진정한 친구는 있다, 없다?",

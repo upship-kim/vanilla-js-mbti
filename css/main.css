@@ -24,3 +24,9 @@
 #result {
     display: none;
 }
+
+@media (max-width: 575.98px) {
+    #main > button {
+        width: 100%;
+    }
+}
