@@ -133,6 +133,7 @@ const onClick = () => {
 };
 
 const changeImg = async () => {
+    if (!isImageChange) return;
     const mainImg = document.querySelector("#mainImg");
 
     const promise = target =>
@@ -144,7 +145,6 @@ const changeImg = async () => {
         );
 
     for (let i = 0; i < animalList.length; i++) {
-        if (!isImageChange) return;
         await promise(animalList[i]);
     }
     changeImg();
