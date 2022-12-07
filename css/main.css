@@ -5,3 +5,11 @@
     width: 80%;
     text-align: center;
 }
+#mainImg {
+    height: 300px;
+}
+
+#qna,
+#result {
+    display: none;
+}

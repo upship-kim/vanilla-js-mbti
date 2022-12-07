@@ -14,31 +14,37 @@
     />
     <link rel="stylesheet" href="./css/default.css" />
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/qna.css" />
 
     <body>
         <div class="container">
             <section id="main">
                 <h3>십이간지로 알아보는 연애유형</h3>
 
-                <img src="./img/main.png" alt="mainImg" class="img-fluid" />
-                <p>
-                    아무 아무 말 아무 아무 말 아무 아무 말 아무 아무 말 아무
-                    아무 말 아무 아무 말 아무 아무 말 아무 아무 말 아무 아무 말
-                    아무 아무 말 아무 아무 말 아무 아무 말 아무 아무 말 아무
-                    아무 말아무 아무 말 아무 아무 말 아무 아무 말 아무 아무 말
-                    아무 아무 말아무 아무 말 아무 아무 말 아무 아무 말 아무 아무
-                    말 아무 아무 말아무 아무 말
-                </p>
-                <button type="button" class="btn btn-outline-primary my-1">
+                <img
+                    id="mainImg"
+                    src="./img/main.png"
+                    alt="mainImg"
+                    class="img-fluid"
+                />
+                <p>시작하기 버튼을 클릭하여 MBTI 검사를 진행해보세요.</p>
+                <button
+                    type="button"
+                    class="btn btn-outline-primary my-1"
+                    onclick="js:onClick()"
+                >
                     시작하기
                 </button>
             </section>
             <section id="qna">
-                <h3>질문페이지</h3>
+                <h3 class="qBox"></h3>
+                <div class="answerBox"></div>
             </section>
             <section id="result">
                 <h3>결과페이지</h3>
             </section>
         </div>
+        <script src="./js/data.js" charset="utf-8"></script>
+        <script src="./js/main.js" charset="utf-8"></script>
     </body>
 </html>
