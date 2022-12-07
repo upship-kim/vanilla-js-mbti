@@ -1,8 +1,8 @@
 .qBox {
-    background-color: whitesmoke;
-    border-radius: 10px;
+    background-color: #e6f4f1;
+    border-radius: 50px;
     padding: 0.8rem;
-    width: 100%;
+    /* width: 80%; */
     text-align: center;
 }
 
@@ -18,4 +18,24 @@
     width: 70%;
     color: black;
     font-size: 24px;
+    border-radius: 40px;
+    background-color: ##9facbd;
+}
+.addList:hover,
+.addList:focus {
+    background-color: #3c4856;
+}
+
+#statusBar {
+    height: 10px;
+    width: 100%;
+    background-color: #e3e3e3;
+    margin-bottom: 4rem;
+    border-radius: 5px;
+}
+
+#status {
+    height: 100%;
+    border-radius: 5px;
+    background-color: #ec8b72;
 }

@@ -1,0 +1,23 @@
+#resultBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6f4f1;
+    border-radius: 80px;
+    padding: 1rem 2rem;
+}
+
+#resultImg {
+    height: 250px;
+    margin: 3rem 0;
+}
+
+#resultSubtitle {
+    margin: 1rem;
+}
+
+#resultDetail {
+    text-align: center;
+    font-size: 22px;
+}
