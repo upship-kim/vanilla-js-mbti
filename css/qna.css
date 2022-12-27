@@ -19,7 +19,7 @@
     color: black;
     font-size: 24px;
     border-radius: 40px;
-    background-color: ##9facbd;
+    /* background-color: #9facbd; */
 }
 .addList:hover,
 .addList:focus {
@@ -41,11 +41,25 @@
 }
 
 @media (max-width: 575.98px) {
+    #qna {
+        padding: 10px 14px;
+    }
+    #statusBar {
+        margin: 1rem 0;
+    }
     .qBox {
-        border-radius: 40px;
+        width: 100%;
+        border-radius: 8px;
         padding: 10px;
+        font-size: 16px;
+        font-weight: 800;
+        letter-spacing: -2px;
     }
     .addList {
         width: 100%;
+        border-radius: 10px;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: -2px;
     }
 }

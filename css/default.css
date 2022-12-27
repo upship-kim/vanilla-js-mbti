@@ -1,11 +1,13 @@
 @font-face {
-    font-family: "cuteFont";
-    src: url("./CuteFont-Regular.ttf");
+    font-family: "NanumGothicCoding";
+    src: url("./NanumGothicCoding-Regular.ttf");
 }
 
 * {
-    font-family: "cuteFont";
-    font-size: 20px;
+    font-family: "NanumGothicCoding";
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -2px;
 }
 
 html,
@@ -66,4 +68,10 @@ section {
 .fadeOut {
     animation: fadeOut;
     animation-duration: 0.5s;
+}
+
+@media (max-width: 575.98px) {
+    * {
+        font-size: 16px;
+    }
 }

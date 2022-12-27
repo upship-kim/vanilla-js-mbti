@@ -29,4 +29,10 @@
     #main > button {
         width: 100%;
     }
+    #main > h1 {
+        font-size: 20px;
+    }
+    #main > h4 {
+        font-size: 12px;
+    }
 }
